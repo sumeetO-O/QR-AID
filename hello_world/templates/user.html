@@ -1,0 +1,22 @@
+{% load django_browser_reload %}
+{% load static %}
+
+<!doctype html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+
+<body>
+    <div class="App">
+        <header class="App-header">
+            <img src="{% static 'Octocat.png' %}" class="App-logo" alt="logo" />
+            <p>
+                Hello <span class="heart">♥️</span> User 088
+            </p>
+        </header>
+    </div>
+</body>
+
+</html>

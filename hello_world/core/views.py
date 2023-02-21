@@ -8,3 +8,12 @@ def index(request):
             "title": "Django example",
         },
     )
+
+def user(request):
+    return render(
+        request,
+        "user.html",
+        {
+            "title": "USER 088",
+        },
+    )
